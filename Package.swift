@@ -11,7 +11,7 @@ let package = Package(
     ],
     dependencies: [
       .package(name: "FunctionalSwift",
-               url: "https://github.com/wesmatlock/FunctionalSwift", .branch("main"))],
+               url: "https://github.com/wesmatlock/FunctionalSwift", from: "0.0.3")],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.

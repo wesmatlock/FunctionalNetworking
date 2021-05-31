@@ -5,9 +5,9 @@
         "package": "FunctionalSwift",
         "repositoryURL": "https://github.com/wesmatlock/FunctionalSwift",
         "state": {
-          "branch": "main",
-          "revision": "01feb282deb39fca6cfa3a362f8c11a5cd9e6556",
-          "version": null
+          "branch": null,
+          "revision": "5217e3019daa2c9b59d43f06bc2e2d55c9395030",
+          "version": "0.0.3"
         }
       }
     ]
