@@ -62,8 +62,8 @@ public func retry<A, B>(_ f: @escaping (A) -> Deferred<Result<B, Error>>) -> (De
 
     result.run { result in
       switch result {
-      case .success: return success = true
-      case .failure: return success = false
+      case .success: success = true
+      case .failure: success = false
       }
 
       dispatchGroup.leave()
